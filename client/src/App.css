@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  font-family: 'Silkscreen';
+  font-size: 20px;
+  background-color: #6ad66d;
+  padding: 20px;
+  box-shadow: 5px 10px;
+  cursor: pointer;
+  transition: box-shadow 0.5s, background-color 0.3s, color 0.3s;
+}
+button:hover {
+  box-shadow: 3px 7px;
+}
+button:active {
+  box-shadow: 0px 0px;
+  background-color: #020502;
+  color: #6ad66d;
+}
