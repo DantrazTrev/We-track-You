@@ -7,7 +7,7 @@ function App() {
     let cookie = false
     if (navigator.cookieEnabled)
       cookie = true
-    let tracker = { width: window.screen.width, height: window.screen.height, cookie }
+    let tracker = { width: window.innerWidth, height: window.innerHeight, cookie }
 
     fetch("/track", {
       method: 'POST',
